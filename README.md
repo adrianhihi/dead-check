@@ -39,7 +39,7 @@ The original "Are You OK?" apps (like the Japanese 死んでいませんか) pro
 ## How it works
 
 ```
-┌─────────────┐     POST /checkin      ┌──────────────────┐
+┌─────────────┐     POST /checkin       ┌──────────────────┐
 │    User     │ ──────────────────────▶ │  dead-check API  │
 │  (daily)    │                         │                  │
 └─────────────┘                         │  - updates       │
