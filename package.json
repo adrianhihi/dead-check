@@ -1,0 +1,42 @@
+{
+  "name": "dead-check",
+  "version": "0.1.0",
+  "description": "A minimal dead man's switch for your app. If a user goes quiet for N days, someone they trust gets notified.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./templates": {
+      "types": "./dist/templates/index.d.ts",
+      "import": "./dist/templates/index.js"
+    },
+    "./adapters/prisma": {
+      "types": "./dist/adapters/prisma.d.ts",
+      "import": "./dist/adapters/prisma.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "dead-mans-switch",
+    "checkin",
+    "notification",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0",
+    "@prisma/client": "^5.14.0"
+  }
+}
