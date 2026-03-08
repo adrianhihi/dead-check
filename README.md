@@ -1,3 +1,8 @@
+[![npm version](https://badge.fury.io/js/dead-check.svg)](https://www.npmjs.com/package/dead-check)
+[![CI](https://github.com/stillemployed/dead-check/actions/workflows/ci.yml/badge.svg)](https://github.com/stillemployed/dead-check/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Built for Still Employed](https://img.shields.io/badge/built%20for-stillemployed.app-F59B2B)](https://stillemployed.app)
+
 # dead-check
 
 **A minimal dead man's switch for your app.**  
@@ -9,6 +14,10 @@ Built for [Still Employed](https://stillemployed.app) — the app where people c
 User checks in → streak continues → everyone's fine
 User goes quiet → 2 days pass → their person gets an email
 ```
+
+---
+
+![dead-check demo](./demo/dead-check-demo.gif)
 
 ---
 
