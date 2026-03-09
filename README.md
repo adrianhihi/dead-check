@@ -1,5 +1,4 @@
 [![npm version](https://badge.fury.io/js/dead-check.svg)](https://www.npmjs.com/package/dead-check)
-[![CI](https://github.com/stillemployed/dead-check/actions/workflows/ci.yml/badge.svg)](https://github.com/stillemployed/dead-check/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Built for Still Employed](https://img.shields.io/badge/built%20for-stillemployed.app-F59B2B)](https://stillemployed.app)
 
